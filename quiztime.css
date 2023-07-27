@@ -154,3 +154,148 @@
   background-color: #5f5c7f;
   color: white;
 }
+.course_title {
+  font-family: Outfit;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 860px) {
+  .header_components {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text1 {
+    font-family: Outfit;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1.5;
+  }
+
+  .search_bar {
+    height: 1.5rem;
+    width: 10rem;
+    border-radius: 3rem;
+    font-family: Outfit;
+    margin-left: 1rem;
+    margin-top: 0.6rem;
+  }
+  #start_now {
+    height: 2.5rem;
+    width: 2.6rem;
+    font-family: Outfit;
+    font-size: 0.8rem;
+    border-radius: 3rem;
+    background-color: #8692a6;
+    color: white;
+    visibility: hidden;
+  }
+  .user_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Outfit;
+  }
+
+  #user {
+    height: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.6rem;
+  }
+
+  .left_menu {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: aliceblue;
+    height: 50vh;
+    margin-right: 1rem;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+
+  .text2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5rem;
+    font-family: Outfit;
+    width: 8rem;
+    border-radius: 3rem;
+    height: 3rem;
+  }
+  .text3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5rem;
+    font-family: Outfit;
+    width: 8rem;
+    border-radius: 3rem;
+    height: 3rem;
+  }
+  .text4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5rem;
+    font-family: Outfit;
+    width: 8rem;
+    border-radius: 3rem;
+    height: 3rem;
+  }
+  .text5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5rem;
+    font-family: Outfit;
+    width: 8rem;
+    border-radius: 3rem;
+    height: 3rem;
+  }
+
+  #icon {
+    height: 1rem;
+    margin-right: 0.5rem;
+    /* margin-left: 5rem; */
+  }
+
+  .main_content {
+    display: flex;
+  }
+
+  .middle_content {
+    margin-top: 2rem;
+    /* background-color: red; */
+    width: 100%;
+    height: 85vh;
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 2rem;
+    row-gap: 5rem;
+  }
+
+  .image {
+    height: 7rem;
+    padding-top: 2rem;
+  }
+
+  .grid_item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 2rem;
+  }
+
+  .course_title {
+    font-family: Outfit;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}

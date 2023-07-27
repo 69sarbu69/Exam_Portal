@@ -86,3 +86,31 @@
 .to_bold {
   font-weight: bold;
 }
+@media screen and (max-width: 860px) {
+  .textbox {
+    height: 2.5rem;
+    width: 20rem;
+    margin-top: 0.8rem;
+    border-radius: 0.5rem;
+    font-family: Outfit;
+  }
+
+  .login_page {
+    background-color: whitesmoke;
+    height: 50rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 2.5rem;
+    border-radius: 5%;
+  }
+  .sign_in_button {
+    height: 2.5rem;
+    width: 20rem;
+    margin-top: 2.5rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    background-color: #8692a6;
+    color: white;
+    font-family: Outfit;
+  }
+}
